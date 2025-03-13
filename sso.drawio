@@ -1,0 +1,105 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="Pk4f1gm2P8p8ePr56hXq">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="1110" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="82" y="168" width="1090" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-1" value="Usuario" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-2" value="Usuario" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="50" y="50" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-5" value="Aplicação" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="431" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-6" value="Aplicação" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="431" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="481" y="50" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-8" value="Keycloak" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="872" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-9" value="Keycloak" style="html=1;whiteSpace=wrap;" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="872" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="922" y="50" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-16" value="Acessar recurso protegido" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="84" as="sourcePoint" />
+            <mxPoint x="480" y="84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-17" value="Conceder acesso a recursos protegidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;shadow=1;dashed=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="481" y="370" as="sourcePoint" />
+            <mxPoint x="61" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-18" value="Redirecionar para login" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="491" y="110" as="sourcePoint" />
+            <mxPoint x="920" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-20" value="Fornecer credenciais" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.2;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.2;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="178" as="sourcePoint" />
+            <mxPoint x="920" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="927" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-30" value="Autenticar usuário" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="oWMjCANSNd8-Ibp-Cy37-29" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="932" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="962" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-31" value="Redirecionar com código de autorização" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="0.0023" width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="277" as="sourcePoint" />
+            <mxPoint x="491" y="277" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-32" value="Formulário de login atual" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.2;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.2;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="61" y="146" as="sourcePoint" />
+            <mxPoint x="921" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-33" value="Trocando o Código pelo token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="0.0023" width="80" relative="1" as="geometry">
+            <mxPoint x="492" y="304" as="sourcePoint" />
+            <mxPoint x="921" y="304" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-34" value="Retornando o acesso e o ID do tokens" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;shadow=1;" edge="1" parent="oWMjCANSNd8-Ibp-Cy37-35">
+          <mxGeometry x="0.0023" width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="337" as="sourcePoint" />
+            <mxPoint x="491" y="337" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

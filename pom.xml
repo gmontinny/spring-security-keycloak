@@ -8,7 +8,7 @@
         <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.bansikah</groupId>
+    <groupId>com.gmontinny</groupId>
     <artifactId>keycloak-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>keycloak-demo</name>
@@ -50,9 +50,6 @@
             <version>3.0.5.RELEASE</version>
         </dependency>
     </dependencies>
-
-
-
     <build>
         <plugins>
             <plugin>

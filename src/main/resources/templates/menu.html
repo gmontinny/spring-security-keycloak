@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Food Ordering Menu</title>
+    <title>Menu de Pedidos</title>
 </head>
 <body>
-<h1>Welcome to the Menu, <span th:text="${username}"></span>!</h1>
-<p>Here's our menu (placeholder):</p>
+<h1>Bem vindo ao Menu, <span th:text="${username}"></span>!</h1>
+<p>Aqui está seu Pedido:</p>
 <ul>
-    <li>Pizza - $10</li>
-    <li>Burger - $8</li>
-    <li>Salad - $6</li>
+    <li>Pizza - R$100,00</li>
+    <li>Burger - R$30,00</li>
+    <li>Salada - R$15,00</li>
 </ul>
 <form th:action="@{/logout}" method="post">
     <input type="submit" value="Logout"/>

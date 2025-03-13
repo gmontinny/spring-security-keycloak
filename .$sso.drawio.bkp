@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="Pk4f1gm2P8p8ePr56hXq">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-1" value="Usuario" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-2" value="Usuario" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-5" value="Aplicação" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="521" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-6" value="Aplicação" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="521" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="571" y="180" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-8" value="Keycloak" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-9" value="Keycloak" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1100" y="180" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-16" value="Acessar recurso protegido" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWMjCANSNd8-Ibp-Cy37-17" value="Acessar recurso protegido" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="571" y="430" as="sourcePoint" />
+            <mxPoint x="151" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

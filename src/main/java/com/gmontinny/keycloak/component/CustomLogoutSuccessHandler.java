@@ -31,7 +31,7 @@ public class CustomLogoutSuccessHandler implements LogoutSuccessHandler{
         }
 
         // URL do endpoint de logout do Keycloak
-        String keycloakLogoutUrl = "http://localhost:8088/realms/food-ordering-realm/protocol/openid-connect/logout";
+        String keycloakLogoutUrl = "http://localhost:8088/realms/spring-boot-keycloak-realm/protocol/openid-connect/logout";
 
 
         // Redireciona o usuário para a página de logout do Keycloak
